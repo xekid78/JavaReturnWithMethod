@@ -1,4 +1,4 @@
-# Java_SampleCode21
+# JavaSampleCode21
 メソッドでリターンがある場合
 
 #### 処理
