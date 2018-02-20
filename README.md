@@ -1,10 +1,29 @@
-# JavaSampleCode21
+# JavaReturnWithMethod
 メソッドでリターンがある場合
 
-#### 処理
+## 処理
 multiメソッドを作って計算した値をリターンで戻す。
-  
-| 開発環境 |  |
+
+## コード
+```
+public class sample21 {
+
+	public static void main(String[] args) {
+		int num = multi(7, 8);
+		System.out.println(num);
+
+	}
+
+
+	public static int multi(int x, int y) {
+		return x * y;
+
+	}
+}
+```
+
+## 開発環境
+| 開発ツール |  |
 |:-|:-|
-| 統合開発環境(IDE)： | Eclipse 4.7.0 Oxygen |
-| 開発言語： | Java8 |
+| 統合開発環境(IDE) | Eclipse 4.7.0 Oxygen |
+| 開発言語 | Java8 |
